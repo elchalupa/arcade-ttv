@@ -1,0 +1,25 @@
+# Arcade TTV - Planned Dependencies
+# This file will be updated when development begins
+
+# Web server
+flask>=3.0.0
+
+# Video generation (planned)
+# diffusers>=0.25.0
+# accelerate>=0.25.0
+# transformers>=4.36.0
+
+# Image/video processing (planned)
+# opencv-python>=4.8.0
+# pillow>=10.0.0
+# imageio>=2.33.0
+# imageio-ffmpeg>=0.4.9
+
+# Audio processing (planned)
+# moviepy>=1.0.3
+
+# Note: PyTorch with CUDA must be installed separately:
+# pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+
+# Note: arcade-tts integration required for yelling TTS
+# See: https://github.com/elchalupa/arcade-tts
